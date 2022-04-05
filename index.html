@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightbox Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="img-container">
+        <img
+          src="./previews/canyon-sm.jpg"
+          alt="Antelope Canyon"
+          data-original="canyon-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/green-river-sm.jpg"
+          alt="Green river forest"
+          data-original="green-river-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/lake-sm.jpg"
+          alt="Lake in the mountains"
+          data-original="lake-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./previews/sunset-tree-sm.jpg"
+          alt="Tree during sunset"
+          data-original="sunset-tree-full.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="modal">
+      <img src="./full/canyon-full.jpg" alt="" class="full-img" />
+      <p class="caption"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
