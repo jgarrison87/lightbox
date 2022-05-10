@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+.hero {
+  height: 150px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  padding: 20px;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  min-height: 100vh;
+  min-height: 80vh;
   grid-gap: 2rem;
 }
 
